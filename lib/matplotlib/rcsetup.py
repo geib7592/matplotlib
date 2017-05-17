@@ -1086,6 +1086,7 @@ defaultParams = {
     'mathtext.fontset':        ['dejavusans', validate_fontset],
     'mathtext.default':        ['it', validate_mathtext_default],
     'mathtext.fallback_to_cm': [True, validate_bool],
+    'mathtext.fallback_fontset': ['cm', validate_fontset],
 
     'image.aspect':        ['equal', validate_aspect],  # equal, auto, a number
     'image.interpolation': ['nearest', six.text_type],
